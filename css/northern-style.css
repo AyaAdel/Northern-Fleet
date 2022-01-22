@@ -9,6 +9,7 @@ footer .footer-logo img {
   width: 70px;
   height: 70px;
   margin-right: 20px;
+  border-radius: 50%;
   object-fit: cover;
 }
 
@@ -23,6 +24,7 @@ footer .footer-logo h3 span {
 }
 
 .homepage .support-company-area {
+  padding-top: 80px;
   padding-bottom: 80px;
 }
 
