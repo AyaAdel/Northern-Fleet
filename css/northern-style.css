@@ -30,10 +30,47 @@ footer .footer-logo h3 span {
 
 .homepage .hero-text1 {
   margin-bottom: 70px;
+  visibility: hidden;
 }
 
 .homepage .hero-text2 {
   margin-top: 180px;
+  visibility: hidden;
+}
+
+/* Our Services */
+.our-services .our-services-items .item {
+  display: flex;
+}
+
+.our-services .our-services-items img {
+  width: 50%;
+  object-fit: cover;
+}
+
+.our-services .our-services-items .description {
+  width: 50%;
+  padding: 80px;
+}
+
+.our-services .our-services-items h2 {
+  margin-bottom: 30px;
+  color: #5c75a9;
+  font-weight: bold;
+}
+
+.our-services .our-services-items ul {
+  padding-left: 20px;
+}
+
+.our-services .our-services-items li {
+  margin-bottom: 10px;
+  color: #5c75a9;
+  list-style-type: disc;
+}
+
+.our-services .our-services-items li:last-child {
+  margin-bottom: 0;
 }
 
 /* Footer */
