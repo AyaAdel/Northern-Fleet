@@ -2038,7 +2038,7 @@ hr {
 }
 @media (max-width: 575px) {
   .header-area .header-bottom {
-    padding: 0 10px;
+    padding: 0;
   }
 }
 .header-area {
@@ -2340,7 +2340,7 @@ hr {
 }
 @media (max-width: 575px) {
   .slider-area .hero__caption h1 {
-    font-size: 35px;
+    font-size: 30px;
   }
 }
 .slider-area .hero__caption .stock-text {

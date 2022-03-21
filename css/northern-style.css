@@ -38,6 +38,10 @@ footer .footer-logo h3 span {
   visibility: hidden;
 }
 
+.homepage #ourServices {
+  padding-bottom: 0;
+}
+
 /* Our Services */
 .our-services .our-services-items .item {
   display: flex;
@@ -46,6 +50,10 @@ footer .footer-logo h3 span {
 .our-services .our-services-items img {
   width: 50%;
   object-fit: cover;
+}
+
+.our-services .our-services-items .mobile-img {
+  display: none;
 }
 
 .our-services .our-services-items .description {
@@ -103,5 +111,37 @@ footer .footer-logo {
 
   .homepage .hero-text1 {
     margin: 0;
+  }
+
+  .footer-area .single-footer-caption.site-content {
+    justify-content: left;
+  }
+
+  .our-services .our-services-items {
+    margin-bottom: 50px;
+  }
+
+  .our-services .our-services-items .item {
+    padding-top: 50px;
+    flex-direction: column;
+  }
+
+  .our-services .our-services-items .description {
+    width: 90%;
+    margin: auto;
+    padding: 0;
+  }
+
+  .our-services .our-services-items img {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .our-services .our-services-items .mobile-img {
+    display: block;
+  }
+
+  .our-services .our-services-items .img {
+    display: none;
   }
 }
