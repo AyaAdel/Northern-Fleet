@@ -18,6 +18,10 @@ footer .footer-logo h3 {
   color: #fff;
 }
 
+footer .footer-logo h3 {
+  font-size: 24px;
+}
+
 .homepage header .logo h3 span,
 footer .footer-logo h3 span {
   color: #eec803;
