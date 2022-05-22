@@ -2108,6 +2108,9 @@ hr {
   transition: all 0.3s ease-out 0s;
   text-transform: capitalize;
 }
+.main-header .main-menu ul li.active a {
+  color: #eec803 !important;
+}
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
   .main-header .main-menu ul li a {
     padding: 39px 14px;
@@ -2670,7 +2673,7 @@ hr {
 }
 .support-company-area .support-wrapper .left-content {
   width: 54%;
-  padding-left: 366px;
+  padding-left: 5%;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
   .support-company-area .support-wrapper .left-content {
@@ -2683,12 +2686,7 @@ hr {
     width: 49%;
   }
 }
-@media only screen and (min-width: 1441px) and (max-width: 1800px) {
-  .support-company-area .support-wrapper .left-content {
-    padding-left: 200px;
-    width: 49%;
-  }
-}
+
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
   .support-company-area .support-wrapper .left-content {
     width: 100%;
